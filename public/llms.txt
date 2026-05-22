@@ -1,0 +1,29 @@
+# Ember & Oak Events
+> Full-service wedding and event planning in Savannah, Georgia. Luxury design and stress-free coordination.
+
+## About
+A wedding and event planning company in Savannah, GA. Packages: Day-of Coordination $1,800, Partial Planning $4,500, Full Planning $8,000+. Weddings, corporate events, celebrations. Trusted vendor network. Gallery with event categories.
+
+## Pages
+- /: Homepage — Weddings, corporate events, and celebrations. Full-service planning in historic Savannah and the Georgia coast.
+- /about: About — Our story, mission, values, and team
+- /contact: Contact — Phone, email, address, hours
+- /privacy: Privacy Policy — How customer data is collected, used, and protected
+- /terms: Terms of Service — Terms governing use of the website and services
+- /services: Services — Detailed services information
+- /gallery: Gallery — Detailed gallery information
+- /packages: Packages — Detailed packages information
+- /testimonials: Testimonials — Detailed testimonials information
+- /availability: Availability — Detailed availability information
+
+## Schema
+- @type: LocalBusiness
+- Industry: events
+
+## Contact
+- Email: hello@emberoakevents.com
+- Phone: (912) 555-0188
+- Address: 412 Bull St
+
+## Citeable Facts
+- A wedding and event planning company in Savannah, GA. Packages: Day-of Coordination $1,800, Partial Planning $4,500, Full Planning $8,000+. Weddings, corporate events, celebrations.
