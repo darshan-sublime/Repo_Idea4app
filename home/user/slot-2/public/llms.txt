@@ -1,0 +1,17 @@
+# Event Studio
+> Premium event management platform for planning, organizing, and executing unforgettable corporate and social events worldwide.
+
+## About
+Event Studio is an award-winning event management company founded in 2009 by Alexandra Chen, a veteran of the luxury hospitality industry. Headquartered in New York City with offices in London and Singapore, the studio has grown from a boutique planning firm into a globally recognized event production powerhouse, celebrated for its creative vision and operational excellence across 1,200+ events in 50+ cities.
+
+## Pages
+- /: Home - Main landing page showcasing Event Studio's event management services, features, testimonials, and FAQ
+- /services: Services - Comprehensive event management services including corporate conferences, weddings, product launches, virtual events, private parties, and team retreats
+- /about: About - Company story, mission, values, leadership team, and statistics
+- /contact: Contact - Global office locations, contact details, business hours, and emergency support
+
+## Contact
+- Email: hello@eventstudio.com
+- Phone: (555) 123-4567
+- Address: 123 Event Plaza, Suite 400, New York, NY 10001
+- Hours: Monday–Friday 9:00 AM – 6:00 PM EST
