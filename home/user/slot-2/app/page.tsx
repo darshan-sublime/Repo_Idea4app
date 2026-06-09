@@ -18,9 +18,9 @@ const baseUrl = getBaseUrl();
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'WebPage',
-  name: 'Event Studio — Premium Event Management Platform',
+  name: 'New Events — Premium Event Management Platform',
   url: baseUrl,
-  description: 'Event Studio is a premier event management platform offering end-to-end planning, coordination, and execution services for corporate and social events worldwide.',
+  description: 'New Events is a premier event management platform offering end-to-end planning, coordination, and execution services for corporate and social events worldwide.',
   speakable: {
     '@type': 'SpeakableSpecification',
     cssSelector: ['h1', '.geo-paragraph'],
@@ -33,31 +33,31 @@ const faqJsonLd = {
   mainEntity: [
     {
       '@type': 'Question',
-      name: 'What types of events does Event Studio manage?',
+      name: 'What types of events does New Events manage?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Event Studio manages a comprehensive range of events including corporate conferences, product launches, galas, weddings, private parties, virtual events, and hybrid experiences. Our team of expert planners tailors every detail to match your vision, budget, and audience, ensuring a seamless and memorable experience from initial concept through post-event wrap-up.',
+        text: 'New Events manages a comprehensive range of events including corporate conferences, product launches, galas, weddings, private parties, virtual events, and hybrid experiences. Our team of expert planners tailors every detail to match your vision, budget, and audience, ensuring a seamless and memorable experience from initial concept through post-event wrap-up.',
       },
     },
     {
       '@type': 'Question',
-      name: 'How far in advance should I book Event Studio for my event?',
+      name: 'How far in advance should I book New Events for my event?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'We recommend booking Event Studio at least 3–6 months in advance for large-scale corporate events and galas, and 6–12 months for weddings and major conferences. However, our agile team can accommodate shorter timelines for smaller events. Early booking ensures access to our full vendor network, preferred venues, and the most competitive pricing for your event.',
+        text: 'We recommend booking New Events at least 3–6 months in advance for large-scale corporate events and galas, and 6–12 months for weddings and major conferences. However, our agile team can accommodate shorter timelines for smaller events. Early booking ensures access to our full vendor network, preferred venues, and the most competitive pricing for your event.',
       },
     },
     {
       '@type': 'Question',
-      name: 'Does Event Studio handle virtual and hybrid events?',
+      name: 'Does New Events handle virtual and hybrid events?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Yes, Event Studio specializes in virtual and hybrid event production. We provide end-to-end technical support including live streaming, interactive audience engagement tools, virtual networking platforms, and professional broadcast-quality production. Our hybrid event solutions seamlessly connect in-person and remote attendees for a unified, engaging experience regardless of location.',
+        text: 'Yes, New Events specializes in virtual and hybrid event production. We provide end-to-end technical support including live streaming, interactive audience engagement tools, virtual networking platforms, and professional broadcast-quality production. Our hybrid event solutions seamlessly connect in-person and remote attendees for a unified, engaging experience regardless of location.',
       },
     },
     {
       '@type': 'Question',
-      name: 'What is included in Event Studio\'s full-service event management package?',
+      name: "What is included in New Events' full-service event management package?",
       acceptedAnswer: {
         '@type': 'Answer',
         text: 'Our full-service package includes venue sourcing and negotiation, vendor management (catering, AV, décor, entertainment), budget planning and tracking, on-site coordination, guest management and RSVP systems, marketing and promotional materials, post-event analytics, and a dedicated event manager assigned to your project from start to finish. We handle every detail so you can focus on your guests.',
@@ -65,10 +65,10 @@ const faqJsonLd = {
     },
     {
       '@type': 'Question',
-      name: 'How does Event Studio ensure events stay within budget?',
+      name: 'How does New Events ensure events stay within budget?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Event Studio uses a transparent, itemized budgeting system from day one. We leverage our extensive vendor relationships to negotiate preferred rates, provide real-time budget tracking dashboards, and proactively flag any potential overruns before they occur. Our experienced planners have managed hundreds of events and know exactly where to optimize spend without compromising on quality or guest experience.',
+        text: 'New Events uses a transparent, itemized budgeting system from day one. We leverage our extensive vendor relationships to negotiate preferred rates, provide real-time budget tracking dashboards, and proactively flag any potential overruns before they occur. Our experienced planners have managed hundreds of events and know exactly where to optimize spend without compromising on quality or guest experience.',
       },
     },
   ],
@@ -80,28 +80,28 @@ const features = [
   { icon: Globe, title: 'Virtual & Hybrid', desc: 'World-class virtual and hybrid event production for global audiences.' },
   { icon: Zap, title: 'Real-Time Coordination', desc: 'Live dashboards and instant communication keep everything on track.' },
   { icon: Camera, title: 'Creative Production', desc: 'Stunning visuals, décor, and branded experiences that leave lasting impressions.' },
-  { icon: TrendingUp, title: 'Post-Event Analytics', desc: 'Detailed insights and ROI reporting to measure your event\'s success.' },
+  { icon: TrendingUp, title: 'Post-Event Analytics', desc: "Detailed insights and ROI reporting to measure your event's success." },
 ];
 
 const testimonials = [
   {
     name: 'Sarah Mitchell',
     role: 'VP Marketing, TechCorp',
-    text: 'Event Studio transformed our annual conference into an extraordinary experience. Every detail was flawless, and our attendees were blown away.',
+    text: 'New Events transformed our annual conference into an extraordinary experience. Every detail was flawless, and our attendees were blown away.',
     rating: 5,
     avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=150',
   },
   {
     name: 'James Okafor',
     role: 'CEO, Nexus Ventures',
-    text: 'The team\'s professionalism and creativity exceeded all expectations. Our product launch was a massive success thanks to Event Studio.',
+    text: "The team's professionalism and creativity exceeded all expectations. Our product launch was a massive success thanks to New Events.",
     rating: 5,
     avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=150',
   },
   {
     name: 'Priya Sharma',
     role: 'Director of Events, GlobalBank',
-    text: 'We\'ve worked with many event companies, but Event Studio stands apart. Their attention to detail and client service is unmatched.',
+    text: "We've worked with many event companies, but New Events stands apart. Their attention to detail and client service is unmatched.",
     rating: 5,
     avatar: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=150',
   },
@@ -157,7 +157,7 @@ export default function HomePage() {
             </h1>
 
             <p className="geo-paragraph text-background/70 text-lg leading-relaxed mb-8 max-w-xl">
-              Event Studio is a premier event management platform that specializes in designing, planning, and executing extraordinary corporate and social events. Founded by industry veterans, the studio combines creative vision with operational excellence to deliver seamless experiences for clients across the globe.
+              New Events is a premier event management platform that specializes in designing, planning, and executing extraordinary corporate and social events. Founded by industry veterans, the studio combines creative vision with operational excellence to deliver seamless experiences for clients across the globe.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -198,7 +198,7 @@ export default function HomePage() {
             <div className="relative rounded-3xl overflow-hidden shadow-2xl shadow-black/40">
               <ImageWithFallback
                 src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&q=80&w=900"
-                alt="Spectacular event managed by Event Studio"
+                alt="Spectacular event managed by New Events"
                 fallbackKeyword="luxury event gala"
                 className="w-full h-[560px] object-cover"
               />
@@ -285,7 +285,7 @@ export default function HomePage() {
                 <div className="aspect-[3/4] overflow-hidden">
                   <ImageWithFallback
                     src={type.img}
-                    alt={`${type.label} event managed by Event Studio`}
+                    alt={`${type.label} event managed by New Events`}
                     fallbackKeyword={type.label.toLowerCase()}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   />
@@ -340,7 +340,7 @@ export default function HomePage() {
           <div className="text-center mb-16">
             <Badge className="mb-4 bg-primary/10 text-primary border-primary/20">FAQ</Badge>
             <h2 className="text-4xl lg:text-5xl font-bold text-foreground">Frequently Asked Questions</h2>
-            <p className="text-muted-foreground text-lg mt-4">Everything you need to know about Event Studio.</p>
+            <p className="text-muted-foreground text-lg mt-4">Everything you need to know about New Events.</p>
           </div>
 
           <div className="space-y-3">
@@ -383,7 +383,7 @@ export default function HomePage() {
             <span className="block gradient-text">Extraordinary Together</span>
           </h2>
           <p className="text-background/70 text-lg mb-10 max-w-2xl mx-auto">
-            From intimate gatherings to grand-scale productions, Event Studio brings your vision to life with unmatched expertise and passion.
+            From intimate gatherings to grand-scale productions, New Events brings your vision to life with unmatched expertise and passion.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">

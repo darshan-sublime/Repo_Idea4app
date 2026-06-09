@@ -5,7 +5,7 @@ import Link from 'next/link';
 import AdgentekAd from './components/AdgentekAd';
 import Idea4appBranding from './components/Idea4appBranding';
 import { getBaseUrl } from '@/lib/utils';
-import { Calendar, Facebook, Instagram, Twitter, Linkedin, Youtube, MapPin, Phone, Mail, Menu, Sparkles, ChevronRight } from 'lucide-react';
+import { Facebook, Instagram, Twitter, Linkedin, Youtube, MapPin, Phone, Mail, Menu, Sparkles, ChevronRight } from 'lucide-react';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { Button } from '@/components/ui/button';
 
@@ -16,26 +16,26 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     metadataBase: new URL(baseUrl),
     title: {
-      default: 'Event Studio — Premium Event Management Platform',
-      template: '%s | Event Studio',
+      default: 'New Events — Premium Event Management Platform',
+      template: '%s | New Events',
     },
-    description: 'Event Studio is a premium event management platform for planning, organizing, and executing unforgettable corporate and social events.',
+    description: 'New Events is a premium event management platform for planning, organizing, and executing unforgettable corporate and social events.',
     alternates: {
       canonical: baseUrl,
       languages: { 'en': baseUrl, 'x-default': baseUrl },
     },
     openGraph: {
-      title: 'Event Studio — Premium Event Management Platform',
-      description: 'Event Studio is a premium event management platform for planning, organizing, and executing unforgettable corporate and social events.',
+      title: 'New Events — Premium Event Management Platform',
+      description: 'New Events is a premium event management platform for planning, organizing, and executing unforgettable corporate and social events.',
       url: baseUrl,
-      siteName: 'Event Studio',
+      siteName: 'New Events',
       type: 'website',
-      images: [{ url: `${baseUrl}/og-image.jpg`, width: 1200, height: 630, alt: 'Event Studio' }],
+      images: [{ url: `${baseUrl}/og-image.jpg`, width: 1200, height: 630, alt: 'New Events' }],
     },
     twitter: {
       card: 'summary_large_image',
-      title: 'Event Studio — Premium Event Management Platform',
-      description: 'Event Studio is a premium event management platform for planning, organizing, and executing unforgettable corporate and social events.',
+      title: 'New Events — Premium Event Management Platform',
+      description: 'New Events is a premium event management platform for planning, organizing, and executing unforgettable corporate and social events.',
     },
   };
 }
@@ -52,7 +52,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   const websiteJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    name: 'Event Studio',
+    name: 'New Events',
     url: baseUrl,
     description: 'Premium event management platform for planning, organizing, and executing unforgettable events.',
     potentialAction: {
@@ -74,11 +74,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <header className="sticky top-0 z-50 w-full backdrop-blur-xl bg-background/80 border-b border-border/50 shadow-sm">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex items-center justify-between h-16 lg:h-20">
-              <Link href="/" className="flex items-center gap-2.5 group" aria-label="Event Studio Home">
+              <Link href="/" className="flex items-center gap-2.5 group" aria-label="New Events Home">
                 <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-primary to-accent flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-200">
                   <Sparkles className="w-5 h-5 text-primary-foreground" />
                 </div>
-                <span className="text-xl font-bold gradient-text font-sans tracking-tight">Event Studio</span>
+                <span className="text-xl font-bold gradient-text font-sans tracking-tight">New Events</span>
               </Link>
 
               <nav aria-label="Main navigation" className="hidden lg:flex items-center gap-1">
@@ -111,11 +111,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 </SheetTrigger>
                 <SheetContent side="right" className="w-80 bg-background/95 backdrop-blur-xl">
                   <div className="flex flex-col gap-6 mt-8">
-                    <Link href="/" className="flex items-center gap-2.5">
+                    <Link href="/" className="flex items-center gap-2.5" aria-label="New Events Home">
                       <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-primary to-accent flex items-center justify-center">
                         <Sparkles className="w-5 h-5 text-primary-foreground" />
                       </div>
-                      <span className="text-xl font-bold gradient-text">Event Studio</span>
+                      <span className="text-xl font-bold gradient-text">New Events</span>
                     </Link>
                     <nav aria-label="Mobile navigation" className="flex flex-col gap-1">
                       {navLinks.map((link) => (
@@ -148,11 +148,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-8">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
               <div className="lg:col-span-1">
-                <Link href="/" className="flex items-center gap-2.5 mb-4" aria-label="Event Studio Home">
+                <Link href="/" className="flex items-center gap-2.5 mb-4" aria-label="New Events Home">
                   <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-primary to-accent flex items-center justify-center">
                     <Sparkles className="w-5 h-5 text-primary-foreground" />
                   </div>
-                  <span className="text-xl font-bold text-background">Event Studio</span>
+                  <span className="text-xl font-bold text-background">New Events</span>
                 </Link>
                 <p className="text-background/60 text-sm leading-relaxed mb-6">
                   Crafting unforgettable experiences through meticulous planning, creative vision, and flawless execution.
@@ -218,14 +218,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                   </div>
                   <div className="flex items-center gap-3">
                     <Mail className="w-4 h-4 text-primary shrink-0" />
-                    <a href="mailto:hello@eventstudio.com" className="text-background/60 hover:text-background text-sm transition-colors">hello@eventstudio.com</a>
+                    <a href="mailto:hello@newevents.com" className="text-background/60 hover:text-background text-sm transition-colors">hello@newevents.com</a>
                   </div>
                 </address>
               </div>
             </div>
 
             <div className="border-t border-background/10 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
-              <p className="text-background/40 text-sm">© {new Date().getFullYear()} Event Studio. All rights reserved.</p>
+              <p className="text-background/40 text-sm">© {new Date().getFullYear()} New Events. All rights reserved.</p>
               <div className="flex items-center gap-4">
                 <Link href="/sitemap.xml" className="text-background/40 hover:text-background/60 text-xs transition-colors">Sitemap</Link>
                 <a href="https://idea4app.ai/report" style={{ fontSize: '11px', color: 'rgba(255,255,255,0.3)' }}>Report this site</a>
